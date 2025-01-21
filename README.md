@@ -54,6 +54,24 @@
 ### 字体授权兼容性说明
 「新晰黑体＋」打底字体 [Droid Sans Fallback](https://www.maoken.com/freefonts/2428.html) 采用 Apache License Version 2.0 授权方式，而主要字体[「霞鹜新晰黑」](https://github.com/lxgw/LxgwNeoXiHei)采用 [IPA Font License v1.0](IPA_Font_License_Agreement_v1.0.txt) 授权方式。根据授权的兼容性与传染性，「新晰黑体＋」采用 [IPA Font License v1.0](IPA_Font_License_Agreement_v1.0.txt) 授权。
 
+附：Droid Sans Fallback 字体授权声明：
+
+```
+---------------------------- 
+ Droid Sans Fallback v2.60c 
+---------------------------- 
+
+   https://github.com/aosp-mirror/platform_frameworks_base/tree/master/data/fonts 
+
+   Digitized data copyright Google Corporation © 2006 
+
+   Licensed under the Apache License, Version 2.0 (the "License"); 
+   you may not use this file except in compliance with the License. 
+   You may obtain a copy of the License at 
+
+       http://www.apache.org/licenses/LICENSE-2.0 
+```
+
 ## 参考资料
 
 - [一点明体（新一细明体）](https://github.com/ichitenfont/I.Ming)
