@@ -27,7 +27,7 @@
 
 ## 获取字体
 
-进入 [Releases](https://github.com/lxgw/SimXiZhi/releases) 页面下载。
+进入 [Releases](https://github.com/lxgw/SimXiZhi/releases) 页面下载。[蓝奏云（密码 994g）](https://lxgw.lanzoum.com/b02sfl11uf)
 
 ## 注意事项
 
