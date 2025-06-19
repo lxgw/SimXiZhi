@@ -27,7 +27,8 @@
 
 ## 获取字体
 
-进入 [Releases](https://github.com/lxgw/SimXiZhi/releases) 页面下载。[蓝奏云（密码 994g）](https://lxgw.lanzoum.com/b02sfl11uf)
+- 进入 [Releases](https://github.com/lxgw/SimXiZhi/releases) 页面下载。
+- 另提供替换 Windows 系统内置「宋体」「黑体」的版本，请[点击此处](https://lxgw.lanzoum.com/b02sfl11uf)下载（密码：994g）。替换前请务必备份系统初始字体，替换时请谨慎操作。本字体未嵌点阵，也未作 hint 处理，因此显示效果可能不如系统内置的「宋体」「黑体」。
 
 ## 注意事项
 
