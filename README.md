@@ -49,7 +49,7 @@
 - 如果您要将本字体替换回 IPA 原始授权字体，请从 [IPA 字体 Ver.003.03 下载页面](https://moji.or.jp/ipafont/ipa00303)获取原始授权字体「IPA ゴシック」和「IPA 明朝」。  
   对于涉及字体文件再分发的嵌入式应用（如应用程序、硬件设备、网页等嵌入），需要满足 IPA 许可中针对衍生字体再分发的限制条件，[请点击此处](https://github.com/lxgw/LxgwNeoXiHei/blob/main/documentation/embedding_instructions.md)了解（跳转到「霞鹜新晰黑」repo）。
 - 有关 IPA Font License 1.0 的其他常见问题，请参阅 [FAQ（日语）](https://moji.or.jp/ipafont/faq)，需自备翻译工具。
-- 但凡有任何人使用、复制、修改、分发本字体，或对本字体进行任何符合 IPA Font License 1.0 规定的行为，使用、下载或行使合约规定权利之接受方，亦视为同意遵守 IPA Font License 1.0 的一切规定。  
+- 任何个人、企业、团队等对本字体进行使用、复制、修改、分发等任意用途即视为您已完全阅读、充分理解并同意 IPA Font License 1.0 授权协议。  
   「IPA 字体（IPA Font，IPAフォント）」为日本「独立行政法人　信息处理推进机构」（The Information-Technology Promotion Agency, “IPA”）的注册商标。
 
 ### 「新晰黑体＋」字体授权兼容性说明
