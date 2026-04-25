@@ -14,11 +14,12 @@
 
 ### 字汇
 
-「新致宋体」「新晰黑体」参照 Windows XP（Service Pack 3）内置的 v3.12 版本宋体调整了收字范围，包含《汉字内码扩展规范（技监标函〔1995〕229 号）》（简称 GBK）所收录的 21003 个汉字和 883 个图形符号，位于 Unicode 私用区的 106 个字符在两款字体中都增加了正式码位映射，同时保留私用区码位兼容（〝一字双码〞）。
+**早期**「新致宋体」「新晰黑体」参照 Windows XP（Service Pack 3）内置的 v3.12 版本宋体调整了收字范围，包含《汉字内码扩展规范（技监标函〔1995〕229 号）》（简称 GBK）所收录的 21003 个汉字和 883 个图形符号，位于 Unicode 私用区的 106 个字符在两款字体中都增加了正式码位映射，同时保留私用区码位兼容（〝一字双码〞）；另提供「新致宋体＋」「新晰黑体＋」，将字汇扩充至 GB 18030-2022 实现级别 2，同时保持 GBK 向下兼容。
+
+> [!IMPORTANT]
+> 自 2.0 版开始，只提供 GB 18030 字库版本，即原「新致宋体＋」「新晰黑体＋」改名为「新致宋体」「新晰黑体」，原 GBK 字符集「新致宋体」「新晰黑体」不再提供。
 
 此外也包含少量其他拉丁字符，如拉丁文字西欧语言补充区（`U+00A0`～`U+00FF`）的字符，以及 Windows 西欧字符集所收录的字符`€‚ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—˜™š›œŸ`等。
-
-另提供「新致宋体＋」「新晰黑体＋」，将字汇扩充至 GB 18030-2022 实现级别 2，同时保持 GBK 向下兼容。
 
 ### 概览
 
@@ -33,9 +34,8 @@
 ## 注意事项
 
 1. 「新晰黑体」「新致宋体」中的字符宽度与 Windows「黑体」「宋体」的字符宽度并不完全相同，因此在替换文档内的 Windows「黑体」「宋体」时仍可能出现部分字符跑位移动的情况。
-2. 为了向历史版本 Windows「黑体」「宋体」的字符集看齐，所以「新晰黑体」「新致宋体」剔除了 GBK 收录范围以外的汉字。「新晰黑体＋」「新致宋体＋」则补全了基本区和扩展 A 区所有汉字，并增补《通用规范汉字表》所有 8105 字。
+2. 为了向 Windows「黑体」「宋体」的字符集看齐，「新晰黑体」「新致宋体」剔除了 GB 18030-2022 实现级别 2 收录范围以外的汉字，即保留基本区和扩展 A 区所有汉字，以及《通用规范汉字表》所有 8105 字。
 3. 为了更加契合 Windows「黑体」西文风格，「新晰黑体」的等宽西文在 IPA Gothic 原始设计的基础上，对「0」「D」和「傻瓜引号」`"` `'`作了调整，并未参照常见于代码编辑的等宽西文字体。
-4. 「新晰黑体＋」的扩展 A 区采用 Droid Sans Fallback 减细后补入，与原有字形混排可能会有违和感。
 
 ### 已知问题
 - 在 Word（Microsoft 365）中，竖排特性会失效，原因未知，见 #1。
@@ -53,8 +53,10 @@
 - 任何个人、企业、团队等对本字体进行使用、复制、修改、分发等任意用途即视为您已完全阅读、充分理解并同意 IPA Font License 1.0 授权协议。  
   「IPA 字体（IPA Font，IPAフォント）」为日本「独立行政法人　信息处理推进机构」（The Information-Technology Promotion Agency, “IPA”）的注册商标。
 
-### 「新晰黑体＋」字体授权兼容性说明
-「新晰黑体＋」打底字体 [Droid Sans Fallback](https://github.com/aosp-mirror/platform_frameworks_base/tree/master/data/fonts) 采用 [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html) 授权方式，而主要字体[「霞鹜新晰黑」](https://github.com/lxgw/LxgwNeoXiHei)采用 [IPA Font License v1.0](IPA_Font_License_Agreement_v1.0.txt) 授权方式。根据授权的兼容性与传染性，「新晰黑体＋」采用 [IPA Font License v1.0](IPA_Font_License_Agreement_v1.0.txt) 授权。
+### 「新晰黑体」字体授权兼容性说明
+「新晰黑体」扩展 A 区利用 [Droid Sans Fallback](https://github.com/aosp-mirror/platform_frameworks_base/tree/master/data/fonts) 作为拼字模板。
+
+[Droid Sans Fallback](https://github.com/aosp-mirror/platform_frameworks_base/tree/master/data/fonts) 采用 [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html) 授权方式，而主要字体[「霞鹜新晰黑」](https://github.com/lxgw/LxgwNeoXiHei)采用 [IPA Font License v1.0](IPA_Font_License_Agreement_v1.0.txt) 授权方式。根据授权的兼容性与传染性，「新晰黑体」采用 [IPA Font License v1.0](IPA_Font_License_Agreement_v1.0.txt) 授权。
 
 以下为 Droid Sans Fallback 字体的版权声明：
 ```
