@@ -54,7 +54,7 @@
   「IPA 字体（IPA Font，IPAフォント）」为日本「独立行政法人　信息处理推进机构」（The Information-Technology Promotion Agency, “IPA”）的注册商标。
 
 ### 「新晰黑体」字体授权兼容性说明
-「新晰黑体」扩展 A 区利用 [Droid Sans Fallback](https://github.com/aosp-mirror/platform_frameworks_base/tree/master/data/fonts) 作为拼字模板。
+「新晰黑体」扩展 A 区在拼字过程中利用 [Droid Sans Fallback](https://github.com/aosp-mirror/platform_frameworks_base/tree/master/data/fonts) 作为模板。
 
 [Droid Sans Fallback](https://github.com/aosp-mirror/platform_frameworks_base/tree/master/data/fonts) 采用 [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html) 授权方式，而主要字体[「霞鹜新晰黑」](https://github.com/lxgw/LxgwNeoXiHei)采用 [IPA Font License v1.0](IPA_Font_License_Agreement_v1.0.txt) 授权方式。根据授权的兼容性与传染性，「新晰黑体」采用 [IPA Font License v1.0](IPA_Font_License_Agreement_v1.0.txt) 授权。
 
