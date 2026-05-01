@@ -4,11 +4,11 @@
 
 ## 字体简介
 
-「新晰黑体 / SimXiHei」「新致宋体 / SimZhiSong」是[「霞鹜新晰黑」](https://github.com/lxgw/LxgwNeoXiHei)[「霞鹜新致宋」](https://github.com/lxgw/LxgwNeoZhiSong)的分支版本，兼容 Windows 系统「黑体」「宋体」度量参数，采用 GBK 字符集。该字体可以让已经使用 Windows 系统「黑体」「宋体」的文档可以直接套换「新晰黑体」「新致宋体」而不会出现大面积重新排版的现象，可视为 Windows 系统「黑体」「宋体」的开源度量兼容（metric compatible）版本。
+「新晰黑体 / SimXiHei」「新致宋体 / SimZhiSong」是[「霞鹜新晰黑」](https://github.com/lxgw/LxgwNeoXiHei)[「霞鹜新致宋」](https://github.com/lxgw/LxgwNeoZhiSong)的分支版本，兼容 Windows 系统「黑体」「宋体」度量参数，采用 GB 18030 字符集。该字体可以让已经使用 Windows 系统「黑体」「宋体」的文档可以直接套换「新晰黑体」「新致宋体」而不会出现大面积重新排版的现象，可视为 Windows 系统「黑体」「宋体」的开源度量兼容（metric compatible）版本。
 
 ### 制作与调整
 
-「新晰黑体」和「新致宋体」分别基于 IPA Gothic 和 IPA Mincho 衍生，在保留原字体等宽西文以及全宽西里尔字母、希腊字母的同时，将汉字和全角标点替换为「霞鹜新晰黑」和「霞鹜新致宋」的字形，并参照 v3.12 版本「宋体」调整了收字范围，使其符合 GBK 字符集。
+「新晰黑体」和「新致宋体」分别基于 IPA Gothic 和 IPA Mincho 衍生，在保留原字体等宽西文以及全宽西里尔字母、希腊字母的同时，将汉字和全角标点替换为「霞鹜新晰黑」和「霞鹜新致宋」的字形，并参照 Windows 11 内置「宋体」调整了收字范围，使其符合 GB 18030 字符集。
 
 至于度量数据，Windows「宋体」「黑体」的 UPM 为 256，而「新致宋体」「新晰黑体」的 UPM 为 2048，因此并不是直接照搬前者的度量数据，而是将前者的度量数据扩大到 8 倍再应用于后者。
 
